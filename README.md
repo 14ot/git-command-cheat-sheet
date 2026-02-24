@@ -86,6 +86,24 @@ git reset --hard HEAD~1
 
 ---
 
+## Cherry-Pick
+
+### Git cherry-pick procedure
+
+View commits from the source branch:
+
+```bash
+git log <branch-name> --oneline
+```
+
+Cherry-pick the desired commit to your current branch:
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+---
+
 ## History & Blame
 
 ### Git log
